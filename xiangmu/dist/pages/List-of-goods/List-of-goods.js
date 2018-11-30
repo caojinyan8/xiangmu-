@@ -1,0 +1,1 @@
+"use strict";require(["../../js/config.js"],function(){require(["jquery"],function(e){require(["cookie"],function(i){require(["pagin"],function(i){require(["list"],function(i){console.log(e)})})})})});

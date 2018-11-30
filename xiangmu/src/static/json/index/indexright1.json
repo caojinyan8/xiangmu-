@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "url":"../../static/images/saleright.jpg",
+        "tip":"舒乐NST-60FQ-02柔软暖手器",
+        "price":"￥75"
+    },
+    {
+        "id":"2",
+        "url":"../../static/images/saleright2.jpg",
+        "tip":"苏泊尔CFB40FC33A-75电饭煲",
+        "price":"￥339"
+
+    },
+    {
+        "id":"3",
+        "url":"../../static/images/saleright3.jpg",
+        "tip":"白象碱性电池5号",
+        "price":"￥13.9"
+
+    }
+]

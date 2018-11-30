@@ -1,0 +1,162 @@
+.goods-Member {
+    margin-top: 8px;
+    display: flex;
+    background: url("../static/images/bgbg.png") no-repeat;
+    dl {
+      flex: 1;
+      padding-top: 10px;
+      margin-left: 30px;
+    }
+    dt {
+      color: #ff6600;
+      font-size: 14px;
+      font-weight: bolder;
+      margin-bottom: 15px;
+    }
+    dd {
+      a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 5px;
+        &:hover {
+          color: #666;
+        }
+      }
+    }
+  }
+  .pagefy {
+    width: 750px;
+    float: right;
+    text-align: right;
+  }
+  .shopli {
+    width: 750px;
+    float: right;
+    dl {
+      width: 196px;
+      padding: 5px;
+      float: left;
+      margin-right: 20px;
+    }
+    dt {
+      margin-bottom: 10px;
+    }
+    dd {
+      h4 {
+        a {
+          text-decoration: none;
+          color: #877dda;
+          margin-bottom: 10px;
+        }
+      }
+      del {
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+      p {
+        font-size: 14px;
+        color: #ff7709;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  footer {
+    border-top: 1px solid #eeeeee;
+  }
+  .footheader {
+    border-bottom: 1px solid #cccccc;
+    .footerheader-l {
+      display: inline-block;
+      width: 225px;
+      text-align: center;
+      line-height: 27px;
+      color: #999999;
+      background: url("../static/images/footleftHead_bg.jpg") right top no-repeat;
+    }
+    .footerheader-r {
+      display: inline-block;
+      text-align: center;
+      line-height: 27px;
+      margin-left: 300px;
+      position: relative;
+      a {
+        color: #666666;
+        text-decoration: none;
+        margin-right: 10px;
+        &:hover {
+          color: #999999;
+        }
+      }
+      b {
+        color: #999999;
+        font-weight: normal;
+        margin-left: 10px;
+      }
+    }
+  }
+  .footl {
+    width: 980px;
+    overflow: hidden;
+    padding-bottom: 14px;
+    .footlli {
+      width: 205px;
+      float: left;
+      margin: 6px 0px 0px 20px;
+      li {
+        width: 205px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #666666;
+        cursor: pointer;
+        padding-left: 10px;
+        background: url("../static/images/xsj_03.jpg") left center no-repeat;
+        &:hover {
+          background: #ff9900 url("../static/images/xsj_03.jpg") left center no-repeat;
+          color: white;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+  .footmenu {
+    float: left;
+    margin-left: 120px;
+    margin-top: 10px;
+    img {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+  .copyright {
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: 1px solid #cccccc;
+    span {
+      float: left;
+      display: block;
+      b {
+        font-weight: normal;
+        color: #666666;
+        float: left;
+        padding-top: 22px;
+        &:hover {
+          color: #999999;
+          cursor: pointer;
+        }
+      }
+      img {
+        float: left;
+      }
+      &:nth-child(1) {
+        margin-left: 210px;
+      }
+    }
+  }
+  .good-img {
+    position: absolute;
+    left: 320px;
+    top: 7px;
+  }
+  

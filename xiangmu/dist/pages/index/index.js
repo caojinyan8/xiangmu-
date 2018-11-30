@@ -1,0 +1,1 @@
+"use strict";require(["../../js/config.js"],function(){require(["jquery"],function(i){require(["indexbanner","display","caidan","top"],function(i,n,e,r){})})});

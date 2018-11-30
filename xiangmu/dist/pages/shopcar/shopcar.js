@@ -1,0 +1,1 @@
+"use strict";require(["../../js/config.js"],function(){require(["jquery"],function(i){require(["cookie","shopcars"],function(e,o){console.log(i)})})});

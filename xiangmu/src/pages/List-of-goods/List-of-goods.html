@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="../../css/List-of-goods.css">
+    <link rel="stylesheet" href="../../css/publicrglo.css">
+    <link rel="stylesheet" href="../../css/pagination.css">
+</head>
+
+<body>
+    <div class="wrapper-t">
+        <div class="wrapperr">
+            <div class="top">
+                <div class="top-l">您好，欢迎您来到便利通网上商城![<a href="../login/login.html">登录</a>] [<a href="../reg/reg.html">免费注册</a>]</div>
+                <div class="top-r">
+                    <a href="shopcar.html">购物车</a><a href="#">新手帮助</a><a href="#">设为首页</a><a href="#">加入收藏</a><a href="#">商户结算</a><a
+                        href="#">特约商户</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-img wrapperr">
+        <div class="top-imgl"><img src="../../static/images/logo_02.jpg" alt="">
+        </div>
+        <div class="top-imgr goods-imgr">
+            <input type="text" name="" id="">
+            <input type="button" value="搜索" id="btn">
+        </div>
+        <p class="ss">热门搜索：<a href="#">华为手机</a><a href="#">蛋糕预定</a><a href="#">低价夜市</a></p>
+    </div>
+    <div class="nav wrapperr activity-nav">
+        <div class="nav-type activity-nav-type" style="display:none;width:500px;height:0px"><a href="#">所有商品分类</a></div>
+        <ul class="nav-li" style="position:relative; left:-50px">
+            <li><a href="../index/index.html">首页</a></li>
+            <li><a href="#">便利通商城</a></li>
+            <li><a href="#">畅销品</a></li>
+            <li><a href="#">农工商</a></li>
+            <li><a href="#">酒店</a></li>
+            <li><a href="#">华为专场</a></li>
+            <li><a href="#">礼品卡店</a></li>
+        </ul>
+    </div>
+    <div class="good-positions wrapperr">
+        <div class="good-positions-top">
+            <span>您的位置:</span><a href="../index/index.html">首页</a><a href="#">食品/饮料</a>><a href="#">饮料</a>><a href="../List-of-goods/List-of-goods.html">水</a>
+        </div>
+        <div class="goods-type">
+            <span class="good-types">分类浏览</span>
+            <div class="good-right">
+                <p>
+                    <span>显示方式</span>
+                    <img src="../../static/images/page1.gif" alt="" class="page1"><img src="../../static/images/page5.gif" alt="" class="page2"><span>每页数量: <select id="setPage">
+                            <option value="12">12</option>
+                            <option value="24">24</option>
+                            <option value="30">30</option>
+                        </select>
+                    </span>
+                    <span>排序方式:</span><select id="good-list">
+                        <option value="0">默认</option>
+                        <option value="1">销量 由多到少</option>
+                        <option value="2">价格 由低到高</option>
+                        <option value="3">价格 由高到低</option>
+                        <option value="4">折扣 由高到低</option>
+                        <option value="5">折扣 由低到高</option>
+                        <option value="6">上架时间 由近到远</option>
+                        <option value="7">上架时间 由远到近</option>
+                    </select>
+                   
+                </p>
+            </div>
+            <div class="pagefy">
+                <span>
+                     <div id="pagination" class="pagination"></div>
+                    <!-- <input type="text" name="" id="">
+                    <input type="button" value="确定"> -->
+                </span>
+            </div>
+            <div class="shopli">
+                <!-- <dl>
+                    <dt><a href="#"><img src="../../static/images/water1.jpg" alt=""></a></dt>
+                    <dd>
+                        <h4><a href="../index/index.html">550ml*12雀巢优活饮用纯净水整箱销售</a></h4>
+                            <del>市场价:￥16.00</del>
+                            <p>销售价:￥9.90</p>
+                            <input type="image" src="../../static/images/shopca.gif" alt="">
+                            <input type="image" src="../../static/images/collect.gif" alt="">
+                    </dd>
+                </dl> -->
+            </div>
+            <div class="brand">
+                <span class="good-brand">品牌</span>
+                <a href="#" class="nfsq">农夫山泉</a>
+                <a href="#">昆仑山</a>
+                <a href="#">雀巢</a>
+                <a href="#">正广和</a>
+                <a href="#">屈呈氏</a>
+                <a href="#">康师傅</a>
+                <a href="#">怡宝</a>
+                <a href="#">景田</a>
+                <a href="#">阿尔卑斯</a>
+                <a href="#">冰露</a>
+                <a href="#">椰树</a>
+                <a href="#">延中</a>
+                <a href="#">恒大冰泉</a>
+                <a href="#">Aquarius</a>
+                <a href="#">优珍</a>
+                <a href="#">可口可乐</a>
+                <a href="#">百岁山</a>
+            </div>
+            <div class="brand price">
+                <span class="good-brand good-price">价格</span>
+                <a href="#">0-100元</a>
+                <a href="#">100-200元</a>
+            </div>
+            <div class="brand sales">
+                <span class="good-brand good-sales">促销类型</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="goods-Member wrapperr">
+        <dl>
+            <dt>会员管理</dt>
+            <dd>
+                <a href="../reg/reg.html">会员注册</a>
+                <a href="#">绑定便利通卡</a>
+                <a href="#">会员功能</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>购物指南</dt>
+            <dd>
+                <a href="#">商品搜索</a>
+                <a href="#">购物车使用</a>
+                <a href="#">商品结算下单</a>
+                <a href="#">订单状态</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>支付方式</dt>
+            <dd>
+                <a href="#">货到付款</a>
+                <a href="#">网上支付</a>
+                <a href="#">银行转账</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>配送说明</dt>
+            <dd>
+                <a href="#">快递上门</a><a href="#">签收须知</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>售后服务</dt>
+            <dd>
+                <a href="#">售后服务说明</a>
+                <a href="#">退货说明</a>
+                <a href="#">商品安全</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>白金卡便利通卡</dt>
+            <dd>
+                <a href="#">便利通卡使用</a>
+                <a href="#">便利通卡办卡须知</a>
+                <a href="#">便利通卡红利卡章程</a>
+                <a href="#">红利白金卡章程</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>其他</dt>
+            <dd>
+                <a href="#">联系我们</a>
+                <a href="#">免责说明</a>
+                <a href="#">信息安全</a>
+            </dd>
+        </dl>
+    </div>
+
+    <footer class="wrapperr">
+        <div class="footheader good-footheader">
+            <span class="footerheader-r "><a href="#">关于便利通网</a>|<b>版权所有© 农工商超市（集团）有限公司</b><img src="../../static/images/pic.gif"
+                    alt="" class="good-img"></span>
+        </div>
+        <div class="footl  good-footmenu">
+            <div class="footmenu">
+                <a href="#"><img src="../../static/images/foot_menu_1.jpg" alt=""></a>
+                <a href="#"><img src="../../static/images/foot_menu_2.jpg" alt=""></a>
+                <a href="#"><img src="../../static/images/foot_menu_3.jpg" alt=""></a>
+                <a href="#"><img src="../../static/images/foot_menu_4.jpg" alt=""></a>
+                <img src="../../static/images/foot_menu_ph.jpg" alt="">
+                <img src="../../static/images/foot_menu_phwd.jpg" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <span><img src="../../static/images/ngs.gif" alt="">
+                <b>农工商超市所属企业</b></span>
+            <span><img src="../../static/images/gov.gif" alt="">
+                <b>沪ICP备05022031 </b></span>
+            <span><img src="../../static/images/cfca.gif" alt="">
+                <b>安全技术认证证书</b></span>
+            <span><img src="../../static/images/zfxkz.gif" alt="">
+                <b>支付许可证</b></span>
+        </div>
+    </footer>
+</body>
+
+<script src="../../js/libs/require.js" data-main="list-of-goods"></script>
+
+
+<!-- <script src="../../js/libs/jquery.js"></script>
+<script src="../../js/libs/jquerypagination.js"></script>
+<script src="../../js/model/listgoo.js"></script> -->
+</html>

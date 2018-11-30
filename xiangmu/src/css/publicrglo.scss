@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    box-sizing: border-box;
+  }
+  /* 头部图片 */
+  img {
+    display: block;
+  }
+  html,body {
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper {
+    width: 980px;
+    margin: auto;
+    box-shadow: 1px 1px 10px 5px #999999;
+  }
+  /* 头部图片结束 */
+  /* 导航 */
+  nav {
+    height: 80px;
+    .top-imgl {
+      img {
+        margin: 12px 0px 0px 38px;
+        float: left;
+      }
+    }
+    .top-imgr {
+      img {
+        margin: 8px 10px 0px 0px;
+        float: right;
+      }
+    }
+    .user {
+      width: 350px;
+      height: 18px;
+      float: right;
+      margin: 40px 0 0 10px;
+      text-align: right;
+      a {
+        text-decoration: none;
+        color: #111;
+        &:hover {
+          text-decoration: underline;
+          color: #26a4cd;
+        }
+      }
+    }
+    ul {
+      width: 80px;
+      float: right;
+      margin: 10px 10px 0 0;
+      li {
+        width: 80px;
+        height: 16px;
+        padding-left: 10px;
+        background: url("../static/images/xsj_03.jpg") no-repeat left center;
+        a {
+          color: #666666;
+          text-decoration: none;
+          &:hover {
+            color: #b299b2;
+          }
+        }
+      }
+    }
+    .top-bg {
+      float: right;
+      margin: 8px 10px 0px 0px;
+    }
+  }
+  .user {
+    .nh {
+      color: red;
+    }
+  }
+  /* 导航结束 */
+  /* 底部 */
+  footer {
+    border-top: 1px solid #eeeeee;
+  }
+  .footheader {
+    border-bottom: 1px solid #cccccc;
+    .footerheader-l {
+      display: inline-block;
+      width: 225px;
+      text-align: center;
+      line-height: 27px;
+      color: #999999;
+      background: url("../static/images/footleftHead_bg.jpg") right top no-repeat;
+    }
+    .footerheader-r {
+      display: inline-block;
+      width: 335px;
+      text-align: center;
+      line-height: 27px;
+      a {
+        color: #666666;
+        text-decoration: none;
+        margin-right: 10px;
+        &:hover {
+          color: #999999;
+        }
+      }
+      b {
+        color: #999999;
+        font-weight: normal;
+        margin-left: 10px;
+      }
+    }
+  }
+  .footl {
+    width: 980px;
+    overflow: hidden;
+    padding-bottom: 14px;
+    .footlli {
+      width: 205px;
+      float: left;
+      margin: 6px 0px 0px 20px;
+      li {
+        width: 205px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #666666;
+        cursor: pointer;
+        padding-left: 10px;
+        background: url("../static/images/xsj_03.jpg") left center no-repeat;
+        &:hover {
+          background: #ff9900 url("../static/images/xsj_03.jpg") left center no-repeat;
+          color: white;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+  .footmenu {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    img {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+  .copyright {
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: 1px solid #cccccc;
+    span {
+      float: left;
+      display: block;
+      b {
+        font-weight: normal;
+        color: #666666;
+        float: left;
+        padding-top: 22px;
+        &:hover {
+          color: #999999;
+          cursor: pointer;
+        }
+      }
+      img {
+        float: left;
+      }
+      &:nth-child(1) {
+        margin-left: 210px;
+      }
+    }
+  }
+  

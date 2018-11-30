@@ -1,0 +1,321 @@
+
+.banner {
+    width: 560px;
+    height: 205px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    .banner-img {
+      width: 560px;
+      height: 205px;
+      position: absolute;
+      a {
+        display: inline-block;
+        width: 560px;
+        height: 205px;
+        left: 560px;
+        position: absolute;
+        &:nth-child(1) {
+          left: 0;
+        }
+      }
+    }
+  }
+  .banner-list {
+    width: 220px;
+    height: 8px;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 150px;
+    li {
+      float: left;
+      height: 8px;
+      width: 33px;
+      margin: 0 5px 0 5px;
+      background: #999;
+      opacity: .6;
+      cursor: pointer;
+    }
+    .active {
+      background: pink;
+      opacity: .6;
+    }
+  }
+  .prev {
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    display: inline-block;
+    margin-top: 72px;
+    opacity: .6;
+    cursor: pointer;
+    background: url("../static/images/slider-arrow.png") -126px -137px #000 no-repeat;
+  }
+  .next {
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    display: inline-block;
+    margin-left: 520px;
+    margin-top: 72px;
+    cursor: pointer;
+    opacity: .6;
+    background: url("../static/images/slider-arrow.png") -10px -137px  #000 no-repeat;
+  }
+  .jd {
+    position: absolute;
+    margin-left: 233px;
+    margin-top: 205px;
+    a {
+      float: left;
+    }
+  }
+  /*navcont结束*/
+  /*shoplistall开始*/
+  .shoplistall {
+    margin-top: 20px;
+    height: 207px;
+    border: 1px solid #cfcfcf;
+    border-top: 3px solid #fe6b1d;
+    margin-bottom: 5px;
+  }
+  .shoplistall-img {
+    width: 960px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    .shoplistall-img1 {
+      width: 1920px;
+      position: absolute;
+    }
+    a {
+      float: left;
+    }
+  }
+  .food-img {
+    margin-top: 10px;
+  }
+  /* .shoplistall-img .shoplistall-img1{
+      float: left;
+  } */
+  /*shoplistall结束*/
+  /*food-paradise开始*/
+  .food-paradise {
+    margin-top: 5px;
+  }
+  .food-paradise-top {
+    overflow: hidden;
+  }
+  .food-paradise-title {
+    width: 750px;
+    height: 28px;
+    line-height: 28px;
+    float: right;
+    text-align: right;
+    border-bottom: 1px solid #f8b15f;
+    span {
+      display: inline-block;
+      background: #fde5bd;
+      height: 28px;
+      a {
+        color: #f8b15f;
+        border-right: 1px solid  #f8b15f;
+        margin: 5px;
+        padding-right: 6px;
+        text-decoration: none;
+        &:nth-last-child(1) {
+          border: none;
+        }
+      }
+    }
+  }
+  .food-paradise-img {
+    float: left;
+  }
+  .food-paradise-title-shopping {
+    height: 320px;
+  }
+  .food-paradise-alcohol {
+    width: 157px;
+    height: 320px;
+    position: relative;
+    float: left;
+    img {
+      position: absolute;
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+  /* .wu{
+      display: none
+  } */
+  .food-paradise-food {
+    width: 815px;
+    float: left;
+    margin-bottom: 10px;
+    li {
+      width: 158px;
+      height: 162px;
+      float: left;
+      &:hover {
+        border: 1px solid #fe6b1d;
+        box-sizing: border-box;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 5px;
+      }
+      p {
+        height: 32px;
+        &:nth-of-type(1) {
+          text-align: center;
+          margin-bottom: 10px;
+          a {
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        &:nth-of-type(2) {
+          span {
+            color: #930;
+            font-size: 14px;
+            font-weight: bolder;
+          }
+          del {
+            float: right;
+          }
+        }
+      }
+    }
+  }
+  /*food-paradise结束*/
+  /*hot-sale开始*/
+  .hot-sale {
+    height: 474px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hot-sale-top {
+    margin-top: 10px;
+    border-bottom: 2px solid #fbe5bd;
+  }
+  .hot-sale-title {
+    border: none;
+    span {
+      background: none;
+      a {
+        border-right: 1px solid black;
+        color: black;
+        &:nth-last-child(1) {
+          background: #fbe5bd;
+          display: inline-block;
+          height: 28px;
+          padding: 0 10px 0 10px;
+        }
+        &:nth-last-child(2) {
+          border-right: none;
+        }
+      }
+    }
+  }
+  .hot-sale-zaoshi {
+    width: 175px;
+    float: left;
+  }
+  .hot-sale-food {
+    width: 552px;
+    float: left;
+    li {
+      width: 137px;
+      height: 219px;
+      padding-top: 30px;
+      border-right: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+      box-sizing: border-box;
+    }
+  }
+  .hot-sale-food-right {
+    width: 240px;
+    margin-left: 10px;
+    float: left;
+    ul {
+      li {
+        width: 240px;
+        height: 100px;
+        border: 1px solid #e5e5e5;
+        border-top: none;
+      }
+    }
+  }
+  #hot-img {
+    width: 135px;
+    height: 135px;
+  }
+  .hot-sale-food-rightt {
+    li {
+      position: relative;
+      &:hover {
+        border: 1px solid #f16b1d;
+        box-sizing: border-box;
+      }
+    }
+  }
+  .icon {
+    position: absolute;
+  }
+  .bigp {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    float: left;
+    margin-top: 10px;
+  }
+  .shopnuam {
+    width: 100px;
+    float: left;
+    margin-top: 25px;
+    span {
+      display: block;
+      &:nth-child(2) {
+        color: #993300;
+        font-weight: bolder;
+      }
+    }
+  }
+  /*hot-sale结束*/
+  /*on-sale开始*/
+  .on-sale {
+    height: 472px;
+  }
+  .on-sale-top {
+    img {
+      &:nth-child(1) {
+        width: 230px;
+      }
+    }
+  }
+  /*on-sale结束*/
+  .floor {
+    width: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    border: 1px solid #f8b15f;
+    li {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      font-size: 14px;
+      background: #fff3d8;
+      &:nth-last-child(1) {
+        border-bottom: none;
+      }
+    }
+  }
+  

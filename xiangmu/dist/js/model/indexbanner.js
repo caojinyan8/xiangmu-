@@ -1,0 +1,1 @@
+"use strict";define(["jquery","banner"],function(){console.log($),$(".banner").banner({items:$(".banner a"),prev:$(".banner .prev"),next:$(".banner .next"),list:$(".banner-list li"),autoPlay:!0,delayTime:2e3,moveTime:500})});

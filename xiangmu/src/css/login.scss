@@ -1,0 +1,157 @@
+.header {
+    ul {
+      width: 940px;
+      height: 40px;
+      background: #770a03;
+      margin: 0 auto;
+      overflow: hidden;
+      li {
+        float: left;
+        height: 40px;
+        a {
+          width: 85px;
+        }
+        &:nth-of-type(1) {
+          a {
+            width: 85px;
+            height: 40px;
+            display: block;
+            margin-left: 80px;
+            background: url("../static/images/Navsub1.jpg");
+            &:hover {
+              background-position: 0 -40px;
+            }
+          }
+        }
+        &:nth-of-type(2) {
+          a {
+            width: 150px;
+            height: 40px;
+            display: block;
+            background: url("../static/images/Navsub2.jpg");
+            &:hover {
+              background-position: 0 -40px;
+            }
+          }
+        }
+        &:nth-of-type(3) {
+          a {
+            width: 110px;
+            height: 40px;
+            display: block;
+            background: url("../static/images/Navsub3.jpg");
+            &:hover {
+              background-position: 0 -40px;
+            }
+          }
+        }
+        &:nth-of-type(4) {
+          a {
+            width: 110px;
+            height: 40px;
+            display: block;
+            background: url("../static/images/Navsub4.jpg");
+            &:hover {
+              background-position: 0 -40px;
+            }
+          }
+        }
+        &:nth-of-type(5) {
+          a {
+            width: 90px;
+            height: 40px;
+            display: block;
+            background: url("../static/images/Navsub5.jpg");
+            &:hover {
+              background-position: 0 -40px;
+            }
+          }
+        }
+        &:nth-of-type(6) {
+          a {
+            width: 130px;
+            height: 40px;
+            display: block;
+            background: url("../static/images/Navsub6.jpg");
+            &:hover {
+              background-position: 0 -40px;
+            }
+          }
+        }
+        &:nth-of-type(7) {
+          a {
+            width: 110px;
+            height: 40px;
+            display: block;
+            background: url("../static/images/Navsub7.jpg");
+            &:hover {
+              background-position: 0 -40px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .bg {
+    width: 980px;
+    height: 360px;
+    background: url("../static/images/bg.png");
+    position: relative;
+  }
+  .bg-form {
+    width: 260px;
+    height: 300px;
+    background: white;
+    position: absolute;
+    margin-top: 26px;
+    left: 660px;
+    border: 5px solid #d4dde4;
+    p {
+      margin-top: 20px;
+      span {
+        display: inline-block;
+        width: 85px;
+        text-align: right;
+      }
+      input {
+        margin-left: 10px;
+        width: 114px;
+      }
+      #dl {
+        width: 88px;
+        height: 27px;
+        line-height: 27px;
+        background: #1a691f;
+        border-radius: 14px;
+        margin-left: 80px;
+        color: white;
+        font-weight: bolder;
+        border: none;
+      }
+    }
+    strong {
+      font-weight: normal;
+      display: block;
+      margin-top: 10px;
+      a {
+        color: #0000ff;
+        margin-left: 30px;
+      }
+    }
+  }
+  .bg-login {
+    display: block;
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
+

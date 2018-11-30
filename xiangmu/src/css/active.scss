@@ -1,0 +1,52 @@
+.activity-nav-type {
+  a {
+    background: none;
+  }
+}
+.active-navcont {
+  position: relative;
+}
+.activity-shoplist {
+  display: none;
+  position: absolute;
+  background: white;
+}
+.baby-type {
+  overflow: hidden;
+  li {
+    width: 192px;
+    height: 270px;
+    float: left;
+    margin-right: 4px;
+    &:hover {
+      box-sizing: border-box;
+      border: 1px solid #ff6b1d;
+    }
+    img {
+      width: 168px;
+      height: 168px;
+    }
+    p {
+      &:nth-of-type(2) {
+        a {
+          text-decoration: none;
+          color: red;
+        }
+      }
+    }
+    div {
+      float: right;
+      width: 67px;
+      height: 45px;
+      background: url("../static/images/shopxian.jpg") no-repeat;
+      position: relative;
+      b {
+        position: absolute;
+        top: 22px;
+        left: 18px;
+        font-size: 16px;
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.shopcar {
+    overflow: hidden;
+    padding: 10px;
+    img {
+      float: left;
+    }
+    .shopscar {
+      float: left;
+    }
+  }
+  .shopscar {
+    p {
+      &:nth-of-type(1) {
+        color: black;
+        font-weight: bolder;
+      }
+    }
+  }
+  .car {
+    display: flex;
+    background: #999;
+    li {
+      float: left;
+      width: 323px;
+      height: 24px;
+      flex: 1;
+      line-height: 24px;
+      text-align: center;
+      color: white;
+      font-size: 14px;
+    }
+  }
+  th {
+    height: 60px;
+  }
+  td {
+    text-align: center;
+    &:nth-child(1) {
+      width: 600px;
+    }
+    img {
+      float: left;
+    }
+    span {
+      float: left;
+      margin-top: 30px;
+    }
+  }
+  .zongjia {
+    height: 50px;
+    background: lavenderblush;
+    p {
+      font-size: 20px;
+      text-align: right;
+      margin-right: 40px;
+      line-height: 50px;
+    }
+  }
+  
